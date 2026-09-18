@@ -88,6 +88,45 @@ The Home page acts as the main entry point to the website, while the other pages
 - Added project information and objectives.
 - Added the sitemap and project documentation.
 
+  ## Changelog
+
+### Version 2.0 — Part 2 (CSS Styling and Responsive Design)
+
+**Feedback fixes from Part 1:**
+
+- Fixed the broken images: every `<img>` tag previously pointed to a non-existent `../Media/` folder. All image references now point to a new `images/` folder in the project root.
+- Fixed the malformed `<img>` tag on the **About Us** page, which was missing its `alt=` attribute name (`<img src="../Media/about.jpg"Gift of the Givers About Image" ...>`), so the alt text was not being read correctly.
+- Fixed the incomplete/broken `<img` tag inside the `<header>` of the **Volunteer** page, which had no closing bracket, `src`, or `alt` attribute and was breaking the page's HTML structure.
+- Removed the stray extra closing tags (`</p>` and a duplicate `</main>`) after `<main>` on the **Home** page.
+- Removed a duplicate `</nav>` closing tag on the **About Us** page.
+- Renamed image files that contained spaces (`disaster relief.jpg`, `food assistance.jpg`) to hyphenated filenames (`disaster-relief.jpg`, `food-assistance.jpg`) to prevent broken links.
+- Reorganised the repository: added dedicated `css/` and `images/` folders instead of keeping files in the project root (a `js/` folder will be added in Part 3).
+
+**New Part 2 additions:**
+
+- Created an external stylesheet, `css/style.css`, and linked it to all six HTML pages.
+- Added a CSS reset and base styles (default font, colours, spacing, `box-sizing`).
+- Imported Google Fonts (Poppins) for headings and used Arial for body text, matching the typography defined in the project proposal.
+- Defined a typography scale using CSS custom properties (`--fs-sm` through `--fs-xxl`) for consistent heading and text sizing.
+- Built the page layout using Flexbox for the header/navigation and alternating image-and-text content blocks, and CSS Grid for the feature/benefit lists (`.info-list`).
+- Applied the project's colour scheme (blue for trust, green for humanitarian support, orange for call-to-action elements) via CSS custom properties in `:root`.
+- Added decorative styling: rounded corners, box-shadows on images and cards, a decorative underline under each `<h2>`.
+- Added interactive styling using the `:hover`, `:focus` and `:active` pseudo-classes on navigation links, buttons and list cards.
+- Styled the "Donate" navigation link as a stand-out call-to-action button.
+- Added responsive breakpoints (media queries) for tablet (`max-width: 1024px`) and mobile (`max-width: 600px`), which stack the navigation menu and image/text blocks into a single column on smaller screens.
+- Used relative units (`rem`, `%`) throughout for font sizes and spacing so the layout scales smoothly between breakpoints, and made all images fluid (`max-width: 100%; height: auto;`) so they resize with their container.
+- Added a "Skip to content" link for keyboard/accessibility navigation, and marked the current page's nav link with an `active` class.
+
+### Version 1.0 — Part 1 (Initial Version)
+
+- Created the GitHub repository.
+- Created the initial website structure.
+- Added the HTML pages.
+- Added navigation links between the pages.
+- Created the README.md file.
+- Added project information and objectives.
+- Added the sitemap and project documentation. 
+
 ## References
 
 Gift of the Givers Foundation. (n.d.). Gift of the Givers Foundation. Available at: https://giftofthegi​vers.org/ (Accessed: 14 August 2026).
