@@ -116,7 +116,11 @@ The Home page acts as the main entry point to the website, while the other pages
 - Added responsive breakpoints (media queries) for tablet (`max-width: 1024px`) and mobile (`max-width: 600px`), which stack the navigation menu and image/text blocks into a single column on smaller screens.
 - Used relative units (`rem`, `%`) throughout for font sizes and spacing so the layout scales smoothly between breakpoints, and made all images fluid (`max-width: 100%; height: auto;`) so they resize with their container.
 - Added a "Skip to content" link for keyboard/accessibility navigation, and marked the current page's nav link with an `active` class.
-- 
+- <img width="1366" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/494b5984-d893-47fa-8f13-9c01a3a1e667" />
+<img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/d530830e-d7ec-4584-a242-3b5d6fa08362" />
+<img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/d6d9b33b-e7e8-4ee4-880d-1203d7b77b44" />
+
+
 
 ### Version 1.0 — Part 1 (Initial Version)
 
