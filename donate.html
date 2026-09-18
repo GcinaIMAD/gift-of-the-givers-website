@@ -1,61 +1,87 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gift of the Givers | Donate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header>
+
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    
+    <header class="site-header">
         <h1>Gift of the Givers</h1>
         <p>Your support can help make a difference.</p>
     </header>
-    <!-- Navigation Section -->
-    <nav>
-    <a href="./index.html">Home</a>
-    <a href="./about.html">About Us</a>
-    <a href="./projects.html">Projects</a>
-    <a href="./donate.html">Donate</a>
-    <a href="./volunteer.html">Volunteer</a>
-    <a href="./contact.html">Contact</a>
-</nav> 
-    <!-- Main Content Section -->
-    <main>
-    <h2>Support Our Work</h2>
-    <img src="../Media/donation.jpg" alt="Gift of the Givers Donate Image" width="600" height="400">
 
-    <p>
-        Donations can help support humanitarian work and provide
-        assistance to people and communities in need.
-    </p>
+    
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About Us</a></li>
+            <li><a href="./projects.html" class="nav-link">Projects</a></li>
+            <li><a href="./donate.html" class="nav-link btn-donate active">Donate</a></li>
+            <li><a href="./volunteer.html" class="nav-link">Volunteer</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>
-        Every contribution can help support relief efforts and
-        humanitarian projects.
-    </p>
+    
+    <main id="main-content">
 
-    <h3>Ways Your Support Can Help</h3>
+        <section class="content-block">
+            <div class="content-block__image">
+                <img src="../Media/donation.jpg" alt="Gift of the Givers Donate Image" width="600" height="400">
+            </div>
+            <div class="content-block__text">
+                <h2>Support Our Work</h2>
+                <p>
+                    Donations can help support humanitarian work and provide
+                    assistance to people and communities in need.
+                </p>
+                <p>
+                    Every contribution can help support relief efforts and
+                    humanitarian projects.
+                </p>
+                <a href="./contact.html" class="btn">Get in Touch to Donate</a>
+            </div>
+        </section>
 
-    <ul>
-        <li>Humanitarian relief</li>
-        <li>Food assistance</li>
-        <li>Emergency response</li>
-        <li>Community support</li>
-    </ul>
+        <section class="content-block reverse">
+            <div class="content-block__text" style="flex-basis: 100%;">
+                <h3>Ways Your Support Can Help</h3>
+                <ul class="info-list">
+                    <li>Humanitarian relief</li>
+                    <li>Food assistance</li>
+                    <li>Emergency response</li>
+                    <li>Community support</li>
+                </ul>
+            </div>
+        </section>
 
-    <h3>Make a Difference</h3>
+        <section class="content-block">
+            <div class="content-block__text" style="flex-basis: 100%;">
+                <h3>Make a Difference</h3>
+                <p>
+                    If you would like to support the organisation's work, please
+                    visit the official Gift of the Givers website for information
+                    about current donation options.
+                </p>
+            </div>
+        </section>
 
-    <p>
-        If you would like to support the organisation's work, please
-        visit the official Gift of the Givers website for information
-        about current donation options.
-    </p>
-</main> 
+    </main>
+
     <!-- Footer Section -->
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Gift of the Givers. All rights reserved.</p>
     </footer>
 

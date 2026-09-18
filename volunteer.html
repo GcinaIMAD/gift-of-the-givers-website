@@ -4,59 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gift of the Givers | Volunteer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
-  <!-- Header Section -->
-    <header>
+
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    
+    <header class="site-header">
         <h1>Gift of the Givers</h1>
-        <img
         <p>Get involved and make a difference.</p>
     </header>
-   <!-- Navigation Section -->
-    <nav>
-    <a href="./index.html">Home</a>
-    <a href="./about.html">About Us</a>
-    <a href="./projects.html">Projects</a>
-    <a href="./donate.html">Donate</a>
-    <a href="./volunteer.html">Volunteer</a>
-    <a href="./contact.html">Contact</a>
-</nav> 
-  <!-- Main Content Section -->
-   <main>
-    <h2>Volunteer With Us</h2>
-    <img src="../Media/volunteers.jpg" alt="Gift of the Givers Volunteer Image" width="600" height="400">
 
-    <p>
-        Volunteering is one way people can contribute their time,
-        skills and effort towards humanitarian work.
-    </p>
+    
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About Us</a></li>
+            <li><a href="./projects.html" class="nav-link">Projects</a></li>
+            <li><a href="./donate.html" class="nav-link btn-donate">Donate</a></li>
+            <li><a href="./volunteer.html" class="nav-link active">Volunteer</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>
-        Volunteers can support humanitarian activities and help
-        organisations respond to the needs of communities.
-    </p>
-    <!-- Volunteer Opportunities Section -->
-    <h3>Why Volunteer?</h3>
+    
+    <main id="main-content">
 
-    <ul>
-        <li>Support humanitarian initiatives.</li>
-        <li>Help communities in need.</li>
-        <li>Contribute your skills and time.</li>
-        <li>Gain experience through community involvement.</li>
-    </ul>
+        <section class="content-block">
+            <div class="content-block__image">
+                <img src="../Media/volunteer.jpg" alt="Gift of the Givers Volunteer Image" width="600" height="400">
+            </div>
+            <div class="content-block__text">
+                <h2>Volunteer With Us</h2>
+                <p>
+                    Volunteering is one way people can contribute their time,
+                    skills and effort towards humanitarian work.
+                </p>
+                <p>
+                    Volunteers can support humanitarian activities and help
+                    organisations respond to the needs of communities.
+                </p>
+            </div>
+        </section>
 
-    <h3>Interested in Helping?</h3>
+        <!-- Volunteer Opportunities Section -->
+        <section class="content-block reverse">
+            <div class="content-block__text" style="flex-basis: 100%;">
+                <h3>Why Volunteer?</h3>
+                <ul class="info-list">
+                    <li>Support humanitarian initiatives.</li>
+                    <li>Help communities in need.</li>
+                    <li>Contribute your skills and time.</li>
+                    <li>Gain experience through community involvement.</li>
+                </ul>
+            </div>
+        </section>
 
-    <p>
-        If you would like to find out more about volunteering
-        opportunities, contact Gift of the Givers for further
-        information.
-    </p>
-</main> 
+        <section class="content-block">
+            <div class="content-block__text" style="flex-basis: 100%;">
+                <h3>Interested in Helping?</h3>
+                <p>
+                    If you would like to find out more about volunteering
+                    opportunities, contact Gift of the Givers for further
+                    information.
+                </p>
+                <a href="./contact.html" class="btn">Get in Touch</a>
+            </div>
+        </section>
 
-   <!-- Footer Section -->
-    <footer>
+    </main>
+
+
+    <footer class="site-footer">
         <p>&copy; 2026 Gift of the Givers. All rights reserved.</p>
     </footer>
 

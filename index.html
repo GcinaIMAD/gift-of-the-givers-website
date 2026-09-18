@@ -4,67 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gift of the Givers | Home</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
         <h1>Gift of the Givers</h1>
         <p>Making a difference through humanitarian support.</p>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-    <a href="./index.html">Home</a>
-    <a href="./about.html">About Us</a>
-    <a href="./projects.html">Projects</a>
-    <a href="./donate.html">Donate</a>
-    <a href="./volunteer.html">Volunteer</a>
-    <a href="./contact.html">Contact</a>
-</nav> 
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="./index.html" class="nav-link active">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About Us</a></li>
+            <li><a href="./projects.html" class="nav-link">Projects</a></li>
+            <li><a href="./donate.html" class="nav-link btn-donate">Donate</a></li>
+            <li><a href="./volunteer.html" class="nav-link">Volunteer</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- Main Content -->
-    <main>
-    <h2>Welcome to Gift of the Givers</h2>
-    <img src="../Media/logo.jpg" alt="Gift of the Givers Hero Image" width="600" height="400">
-     <p>
-        Gift of the Givers is a humanitarian organisation that provides
-        assistance to people and communities affected by disasters,
-        poverty and humanitarian crises.
-    </p>
+    <main id="main-content">
 
-    <p>
-        The organisation responds to emergencies and provides support
-        to communities in need through humanitarian and development
-        projects.
-    </p>
+        <section class="content-block">
+            <div class="content-block__image">
+                <img src="../Media/logo.jpg"Gift of the Givers Hero Image" width="600" height="400">
+            </div>
+            <div class="content-block__text">
+                <h2>Welcome to Gift of the Givers</h2>
+                <p>
+                    Gift of the Givers is a humanitarian organisation that provides
+                    assistance to people and communities affected by disasters,
+                    poverty and humanitarian crises.
+                </p>
+                <p>
+                    The organisation responds to emergencies and provides support
+                    to communities in need through humanitarian and development
+                    projects.
+                </p>
+            </div>
+        </section>
 
-    <h3>Making a Difference</h3>
-    <img src="../Media/hero.jpg" alt="Making a Difference Image" width="600" height="400">
+        <section class="content-block reverse">
+            <div class="content-block__image">
+                <img src="../Media/hero.jpg" alt="Making a Difference Image" width="600" height="400">
+            </div>
+            <div class="content-block__text">
+                <h3>Making a Difference</h3>
+                <p>
+                    Gift of the Givers works to provide practical assistance to
+                    people facing difficult circumstances. Its work includes
+                    humanitarian relief, food assistance, disaster response and
+                    community support.
+                </p>
+            </div>
+        </section>
 
-    <p>
-        Gift of the Givers works to provide practical assistance to
-        people facing difficult circumstances. Its work includes
-        humanitarian relief, food assistance, disaster response and
-        community support.
-    </p>
+        <section class="content-block">
+            <div class="content-block__text" style="flex-basis: 100%;">
+                <h3>How You Can Help</h3>
+                <ul class="info-list">
+                    <li>Donate towards humanitarian projects.</li>
+                    <li>Support communities affected by disasters.</li>
+                    <li>Volunteer and contribute your skills.</li>
+                    <li>Share information about humanitarian initiatives.</li>
+                </ul>
+            </div>
+        </section>
 
-    <h3>How You Can Help</h3>
-
-    <ul>
-        <li>Donate towards humanitarian projects.</li>
-        <li>Support communities affected by disasters.</li>
-        <li>Volunteer and contribute your skills.</li>
-        <li>Share information about humanitarian initiatives.</li>
-    </ul>
-</main> 
-
-        </p>
     </main>
 
-    <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Gift of the Givers. All rights reserved.</p>
     </footer>
 
