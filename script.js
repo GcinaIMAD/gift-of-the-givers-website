@@ -53,3 +53,22 @@ if (contactForm) {
         }, 1500);
     });
 } 
+// Project Search Filter Logic
+function filterProjects() {
+    // Get the search input value and convert to lowercase
+    let input = document.getElementById('projectSearch').value.toLowerCase();
+    // Get the list of projects
+    let list = document.getElementById('projectList');
+    // Get all the list items inside the list
+    let items = list.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those that don't match the search query
+    for (let i = 0; i < items.length; i++) {
+        let text = items[i].textContent || items[i].innerText;
+        if (text.toLowerCase().indexOf(input) > -1) {
+            items[i].style.display = ""; // Show the item
+        } else {
+            items[i].style.display = "none"; // Hide the item
+        }
+    }
+} 
