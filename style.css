@@ -350,7 +350,34 @@ main {
     .content-block.reverse {
         flex-direction: column;
     }
+/* --- Mobile Menu Toggle (Hamburger) --- */
+.menu-toggle {
+    display: none; /* Hidden on desktop */
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: right;
+}
 
+@media (max-width: 600px) {
+    .menu-toggle {
+        display: block; /* Show on mobile */
+    }
+    .nav-list {
+        display: none; /* Hide menu by default on mobile */
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-list.active {
+        display: flex; /* Show menu when button is clicked */
+    }
+} 
     main {
         padding: var(--space-sm);
     }
