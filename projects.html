@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> 
+
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -49,31 +52,38 @@
             </div>
         </section>
 
-        <section class="content-block">
-            <div class="content-block__image">
-                <img src="disaster-relief.jpg" alt="Disaster-Relief Project Image" width="600" height="400">
-            </div>
-            <div class="content-block__text">
-                <h3>Disaster Relief</h3>
-                <p>
-                    The organisation responds to disasters and emergencies by
-                    providing assistance to affected communities.
-                </p>
-            </div>
-        </section>
+       <!-- Project 1: Disaster Relief -->
+<section class="content-block">
+    <div class="content-block__image">
+        <a href="disaster-relief.jpg" data-lightbox="projects" data-title="Disaster Relief Efforts">
+            <img src="disaster-relief.jpg" alt="Disaster Relief Project Image">
+        </a>
+    </div>
+    <div class="content-block__text">
+        <h3>Disaster Relief</h3>
+        <p>
+            The organisation responds to disasters and emergencies by
+            providing assistance to affected communities.
+        </p>
+    </div>
+</section>
 
-        <section class="content-block reverse">
-            <div class="content-block__image">
-                <img src="food-assistance.jpg" alt="Food-Assistance Project Image" width="600" height="400">
-            </div>
-            <div class="content-block__text">
-                <h3>Food Assistance</h3>
-                <p>
-                    Food and essential supplies can be provided to people and
-                    communities experiencing hardship.
-                </p>
-            </div>
-        </section>
+<!-- Project 2: Food Assistance -->
+<section class="content-block reverse">
+    <div class="content-block__image">
+        <a href="food-assistance.jpg" data-lightbox="projects" data-title="Food Assistance Program">
+            <img src="food-assistance.jpg" alt="Food Assistance Project Image">
+        </a>
+    </div>
+    <div class="content-block__text">
+        <h3>Food Assistance</h3>
+        <p>
+            Food and essential supplies can be provided to people and
+            communities experiencing hardship.
+        </p>
+    </div>
+</section> 
+
 
         <section class="content-block">
             <div class="content-block__text" style="flex-basis: 100%;">
