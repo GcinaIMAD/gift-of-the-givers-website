@@ -139,3 +139,32 @@ Gift of the Givers Foundation. (n.d.). Gift of the Givers Foundation. Available 
 W3Schools. (n.d.). HTML Tutorial. Available at: https://www.w3schools.com/html/ (Accessed: 14 August 2026).
 
 MDN Web Docs. (n.d.). HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 14 August 2026). 
+
+# Version 3.0 — Part 3 (JavaScript, Forms & SEO)
+
+**Fixes based on Part 2 Feedback:**
+*   **Repository Structure:** Fixed the critical folder path issue by moving all files to the root directory and updating relative paths.
+*   **Image Names:** Renamed image files to remove spaces (e.g., `disaster relief.jpg` to `disaster-relief.jpg`).
+*   **Mobile Navigation:** Added a functional hamburger menu toggle for mobile devices using JavaScript.
+*   **Footer Contrast:** Improved accessibility by updating CSS to ensure white text on the dark background.
+*   **Screenshots:** Added responsive layout screenshots below.
+
+**New Part 3 Additions:**
+*   **Interactive Elements:** Added an FAQ accordion on the Volunteer page using JavaScript.
+*   **Interactive Maps:** Embedded a fully interactive Google Map on the Contact page.
+*   **Gallery Lightbox:** Integrated the Lightbox2 library on the Projects page to display images in a larger view.
+*   **Dynamic Content:** Implemented a JavaScript search filter on the Projects page to filter project areas.
+*   **Forms & Validation:**
+    *   Added an Enquiry form on the Volunteer page with custom JavaScript validation and a simulated response.
+    *   Added a Contact form on the Contact page with simulated AJAX submission.
+*   **SEO:** Added unique meta descriptions to all pages, ensured descriptive alt text for all images, and created `robots.txt` and `sitemap.xml` files to improve search engine indexing.
+
+---
+
+## Responsive Layout Screenshots
+
+### Desktop View
+Screenshot(1).png
+Screenshot(2).png
+Screenshot(3).png
+
