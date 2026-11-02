@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
-     
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>   
 </head>
 
 <body>
@@ -136,10 +136,13 @@
     <footer class="site-footer">
         <p>&copy; 2026 Gift of the Givers. All rights reserved.</p>
     </footer>
-     <script src="script.js">
-           document.addEventListener("DOMContentLoaded", function() {
-        lightbox.init();
-    });
-     </script>
+    <script src="script.js"></script>
+   
+    <script>
+        // This forces the Lightbox to initialize after the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            lightbox.init();
+        });
+    </script>  
 </body>
 </html> 
