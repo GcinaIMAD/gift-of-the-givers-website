@@ -96,6 +96,35 @@
         </div>
     </div>
 </section> 
+        <!-- Volunteer Enquiry Form -->
+<section class="content-block">
+    <div class="content-block__text" style="flex-basis: 100%;">
+        <h3>Volunteer Enquiry Form</h3>
+        <p>Fill out this form to let us know how you would like to help.</p>
+       
+        <form id="enquiryForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+           
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required placeholder="Enter your email">
+           
+            <label for="service">Service Interested In:</label>
+            <select id="service" required>
+                <option value="">-- Please select --</option>
+                <option value="food">Food Assistance</option>
+                <option value="disaster">Disaster Relief</option>
+                <option value="community">Community Support</option>
+            </select>
+           
+            <button type="submit" class="btn" style="margin-top: 15px;">Submit Enquiry</button>
+        </form>
+       
+        <!-- This div will show the success message -->
+        <div id="formResponse" style="margin-top: 20px; font-weight: bold; color: var(--color-secondary);"></div>
+    </div>
+</section> 
+
 
 
 
