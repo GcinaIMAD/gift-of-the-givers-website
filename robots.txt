@@ -1,2 +1,4 @@
 User-agent: *
 Allow: / 
+Sitemap: https://gcinaimad.github.io/gift-of-the-givers-website/sitemap.xml
+ 
